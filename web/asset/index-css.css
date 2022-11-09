@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 6, 2019, 12:10:18 PM
+    Author     : Prasad Chathuranga
+*/
+
+#nav,.btn {
+display:table; /* centers modern browsers */
+margin:0 auto; /* centers modern browsers */
+text-align:center; /* centers IE6/7 */
+}
+#nav ul {
+list-style:none;
+display:inline-block; /* IE6/7 haslayout trip-switch */
+}
+#nav ul {
+display:inline; /* IE6/7 haslayout trip-switch, and IE6/7 only need ul to be display inline, yet does no harm to others */
+}
+#nav li {
+display:inline;
+}
+#nav a {
+float:left;
+text-decoration:none; 
+padding:0 30px; /* variable width */
+font-size: 14px;
+text-transform: uppercase;
+padding-left: 1rem !important;
+padding-right: 1rem !important;
+margin-top: 15px;
+margin-bottom: 5px;
+}
+
+#nav .add{
+    color: green;
+}
+
+#nav .delete{
+    color: red;
+}
+
+#nav .update{
+    color: yellow;
+}
+/*******************************************
+table tr:not(:first-child){
+                cursor: pointer;transition: all .25s ease-in-out;
+            }
+            
+table tr:not(:first-child):hover{
+    background-color: #ddd;
+}
+*/
+
+.leftside .rightside{
+    height: 100vh;
+    width: 100%;
+ 
+}
+
+.rightside{
+    padding-top: 0px;
+    margin-top: -450px;
+    margin-left: 300px;
+}
+
+#table{
+    width: 600px;
+}
+
+#table-view{
+    width: 1000px;
+}
+
+/************************/
+
+.cust{
+    font-family: Helvetica;
+}
+
+
+
+

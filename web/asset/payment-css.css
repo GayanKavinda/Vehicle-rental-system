@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 8, 2019, 1:01:57 PM
+    Author     : Prasad Chathuranga
+*/
+
+#table-update .edit, #table-delete .edit{
+    text-decoration: none;
+    color: #082E41;
+    text-align: center;
+    font-weight: bold;
+}
+
+#table-update .edit:hover,#table-delete .edit:hover {
+    color: red;
+}
+
+#table-update{
+    width: 1000px;
+}
+
+#table-delete{
+    width: 1000px;
+}
+

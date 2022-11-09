@@ -1,0 +1,12 @@
+SMAP
+vehicle_005fdetails_005fadd_jsp.java
+JSP
+*S JSP
+*F
++ 0 vehicle_details_add.jsp
+vehicle_details_add.jsp
+*L
+1,130:53
+131,4:184
+134,19:188
+*E
